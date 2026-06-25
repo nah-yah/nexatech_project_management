@@ -31,7 +31,7 @@ Ce guide documente les manipulations techniques requises dans le logiciel pour r
 
 ### 2.2. Budgétisation Ascendante (Bottom-Up)
 Le logiciel additionne les coûts du travail (taux horaire des ressources) et les coûts fixes.
-* Saisie des Coûts Fixes : Faire un clic droit sur la case grise vide en haut à gauche du tableau Excel. Sélectionner la table Coût (Cost). Saisir les forfaits sur les lignes d'infrastructure Cloud (30 000 $\$$), de serveurs GPU IA (150 000 $\$$), de licences (67 650 $\$$) et de Pentest (50 000 $\$$).
+* Saisie des Coûts Fixes : Faire un clic droit sur la case grise vide en haut à gauche du tableau Excel. Sélectionner la table Coût (Cost). Saisir les forfaits sur les lignes d'infrastructure Cloud (30 000 `$`), de serveurs GPU IA (150 000 `$`), de licences (67 650 `$`) et de Pentest (50 000 `$`).
 * Saisie de la Réserve pour Aléas : Créer la tâche [PROVISION] Réserve de Contingence dans le Lot 1.1 (Durée 260j, sans ressource humaine). Dans la table Coût, saisir 150000 en Coût Fixe et régler l'imputation sur Fin (End).
 * Enregistrement de la Baseline : Ouvrir l'onglet Fichier > Enregistrer le planning de référence > Sélectionner Pour le projet entier. Une barre grise contractuelle s'imprime sous chaque tâche.
 
